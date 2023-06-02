@@ -31,7 +31,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/excalidraw/excalidraw/tree/master/dev-docs/",
+            "",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -58,21 +58,6 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
-          {
-            to: "/docs",
-            position: "left",
-            label: "Docs",
-          },
-          {
-            to: "https://blog.excalidraw.com",
-            label: "Blog",
-            position: "left",
-          },
-          {
-            to: "https://github.com/excalidraw/excalidraw",
-            label: "GitHub",
-            position: "right",
-          },
         ],
       },
       footer: {
@@ -90,31 +75,11 @@ const config = {
           {
             title: "Community",
             items: [
-              {
-                label: "Discord",
-                href: "https://discord.gg/UexuTaE",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/excalidraw",
-              },
-              {
-                label: "Linkedin",
-                href: "https://www.linkedin.com/company/excalidraw",
-              },
             ],
           },
           {
             title: "More",
             items: [
-              {
-                label: "Blog",
-                to: "https://blog.excalidraw.com",
-              },
-              {
-                label: "GitHub",
-                to: "https://github.com/excalidraw/excalidraw",
-              },
             ],
           },
         ],
